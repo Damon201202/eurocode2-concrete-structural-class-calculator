@@ -1,9 +1,7 @@
-/*!
- * Copyright © 2025 Dimitry Lyubichev / beton-guide.com.
- * All rights reserved. Unauthorized reproduction or use is strictly prohibited.
- */
-
-// Structural class calculation (English, adapted to your HTML)
+// Copyright © 2025 Dimitry Lyubichev / beton-guide.com
+// Licensed under the MIT License.
+// You may freely use, modify, and distribute this code under the terms of the MIT License.
+// See the LICENSE file in the project root for details.
 
 document.addEventListener('DOMContentLoaded', () => {
   const hooks = [
@@ -155,3 +153,4 @@ if (alertEl) {
   const classeStrEl = document.querySelector('.calcul-four-beton-classe_str');
   if (classeStrEl) classeStrEl.innerHTML = `S${classeStr}`;
 }
+
